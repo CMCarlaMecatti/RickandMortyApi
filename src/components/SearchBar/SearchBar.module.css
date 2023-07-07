@@ -1,0 +1,30 @@
+.containerNav {
+    display: flex;
+  align-items: center;
+  width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #f1f1f1;  }
+
+.input {
+    flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 20px 0 0 20px;  }
+
+.button {
+    padding: 8px 16px;
+  border: none;
+  outline: none;
+  background-color: #ccc;
+  color: #fff;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+
+}
+
+.img {
+    width: 15px;
+    height: 17px;
+}

@@ -1,0 +1,27 @@
+.box h2 {
+    font-size: larger;
+    position: relative;
+    z-index: 2;
+}
+
+.box button {
+    position: relative;
+    z-index: 2;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: relative;
+    z-index: 2;
+    display:inline-block;
+    margin: auto;
+}
+
+.img {
+    top: 0;
+    left: 0;
+    position:absolute;
+    z-index: 1;
+}
